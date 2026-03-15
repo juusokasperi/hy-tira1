@@ -1,6 +1,7 @@
 def count_pairs(numbers):
     result = 0
     counts = {}
+    n = len(numbers)
 
     for i in range (n):
         num = numbers[i]
